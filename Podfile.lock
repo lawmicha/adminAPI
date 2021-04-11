@@ -13,6 +13,10 @@ PODS:
     - AWSCore (~> 2.23.0)
     - AWSMobileClient (~> 2.23.0)
     - AWSPluginsCore (= 1.7.0)
+  - AmplifyPlugins/AWSDataStorePlugin (1.7.0):
+    - AWSCore (~> 2.23.0)
+    - AWSPluginsCore (= 1.7.0)
+    - SQLite.swift (~> 0.12.0)
   - AppSyncRealTimeClient (1.4.3):
     - Starscream (~> 3.1.0)
   - AWSAuthCore (2.23.2):
@@ -30,12 +34,16 @@ PODS:
   - AWSPluginsCore (1.7.0):
     - Amplify (= 1.7.0)
     - AWSCore (~> 2.23.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
   - Starscream (3.1.1)
 
 DEPENDENCIES:
   - Amplify
   - AmplifyPlugins/AWSAPIPlugin
   - AmplifyPlugins/AWSCognitoAuthPlugin
+  - AmplifyPlugins/AWSDataStorePlugin
 
 SPEC REPOS:
   trunk:
@@ -48,6 +56,7 @@ SPEC REPOS:
     - AWSCore
     - AWSMobileClient
     - AWSPluginsCore
+    - SQLite.swift
     - Starscream
 
 SPEC CHECKSUMS:
@@ -60,8 +69,9 @@ SPEC CHECKSUMS:
   AWSCore: 70f79e95ee30f8eefa7122391d76ace516778f22
   AWSMobileClient: 54fd215e76e34a8edb3cb1199788a69543cebc95
   AWSPluginsCore: d4593ef79107b15a02597705b63c9c915a946ee9
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: bdd2987de09c7597d86de9b328eb98e4f762fbc4
+PODFILE CHECKSUM: 3b1244ebf1e1e69930910a132bff7dfff485648f
 
 COCOAPODS: 1.10.1

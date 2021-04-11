@@ -8,7 +8,7 @@ target 'adminAPI' do
   # Pods for adminAPI
   pod 'Amplify'
   pod 'AmplifyPlugins/AWSAPIPlugin'
-  #pod 'AmplifyPlugins/AWSDataStorePlugin'
+  pod 'AmplifyPlugins/AWSDataStorePlugin'
   pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
   target 'adminAPITests' do
     inherit! :search_paths
